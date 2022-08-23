@@ -1,4 +1,22 @@
-## Initialization
+# To-do List App
+
+This is an app that allows user generate their to-do list. This project is implemented by Django.
+Function include:
+- create users
+- user create/edit/delte their tasks
+- system authentification
+
+## TaskList
+![01](https://raw.githubusercontent.com/suereey/Django_TodoList/main/screenshot/01_List.png)
+
+## Login and Register
+![02](https://raw.githubusercontent.com/suereey/Django_TodoList/main/screenshot/02_Login.png)
+![03](https://raw.githubusercontent.com/suereey/Django_TodoList/main/screenshot/03_Register.png)
+
+## Add task
+![04](https://raw.githubusercontent.com/suereey/Django_TodoList/main/screenshot/04_Task.png)
+
+## Django setup
 
 install django ```pip install django```
 
@@ -6,7 +24,7 @@ start a project ```django-admin startproject todo_list```
 
 create a base app ```python manage.py startapp base```
 
-## connectio port
+## Connectio port
 http://127.0.0.1:8000/
 
 ## urls, views and models
